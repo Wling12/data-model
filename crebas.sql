@@ -1,6 +1,6 @@
 /*==============================================================*/
 /* DBMS name:      Microsoft SQL Server 2008                    */
-/* Created on:     2018.03.04 AM 11:04:30                       */
+/* Created on:     2018.03.04 PM 10:34:28                       */
 /*==============================================================*/
 
 
@@ -493,8 +493,7 @@ create table instrument_initial_value (
    f_id                 int                  null,
    b_id                 int                  null,
    ci_id                char(3)              null,
-   i_water_meter        varchar(10)          null,
-   i_electricity_meter  varchar(10)          null,
+   i_meter              varchar(10)          null,
    constraint PK_INSTRUMENT_INITIAL_VALUE primary key nonclustered (i_id)
 )
 go
